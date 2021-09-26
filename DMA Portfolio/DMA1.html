@@ -255,101 +255,7 @@ function myFunction(imgs) {
     <img src="summer.png" alt="summer" style="width:100%" onclick="myFunction(this);">
   </div>										 
 										 
-										 
-
-</div>
-
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
-</div>
-
-<script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-</script>
-
-</body>
-
-
-<br><br>
-
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-}
-
-img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-</style>
-</head>						 
+					 
 						 
 <h1>
  <p class="bg-info text-white text-center"><i class="fas fa-cloud"></i> Short Animations
@@ -388,7 +294,7 @@ body {
     <img src="turn.gif" alt="turn" style="width:100%" onclick="myFunction(this);">
   </div>
 										   
-<br>										   								 										   
+<br><br><br><br>										   								 										   
 										   
 
 <h1>
@@ -397,6 +303,7 @@ body {
 <i class="fas fa-cloud"></i>
 </p>
 </h1>
+		       
 <br>
 
 <iframe class="d-block mx-auto" width="560" height="315" src="https://www.youtube.com/embed/Kg99dfHohA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
